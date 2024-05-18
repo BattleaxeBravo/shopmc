@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body{
+  background: #212121;
+  color: #fff;
+}
+
+/* Header */
+#hdrContainer{
+  box-shadow: #000000 0px 0px 10px;
+  background: #0d6200;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border-bottom: #ffffff solid 1px;
+  z-index: 99;
+}
+
+#hdr{
+padding: 30px;
+}
+
+/* Item Tab Name */
+#itemTabName{
+  background: #171717;
+  max-height: 39px;
+  min-height: 39px;
+  align-content: center;
+  position: absolute;
+  top: 101px;
+  left: 0px;
+  right: 0px;
+  z-index: 99;
+}
+/* Navigation Bar */
+#navigationContainer{
+  transition-duration: 0.3s;
+  background: #171717;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  right: 0px;
+  border-bottom: #ffffff 1px solid;
+  z-index: 99;
+}
+
+#navigationContainer:hover{
+  border-bottom: #0d6200 1px solid;
+}
+
+#navButtons{
+  transition-duration: 0.5s;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  background: #171717;
+  color: #fff;
+  cursor: pointer;
+  border-top: #ffffff 1px solid;
+}
+
+#navButtons:hover{
+  border-top: #0d6200 5px solid;
+  color: #0d6200;
+  border-radius: 6px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#navButtons:active{
+  border-top: #ffffff 5px solid;
+  color: #ffffff;
+}
+
+/* Shop UI */
+#shopContainer{
+  margin-top: 100px;
+}
+
+.shopUI{
+  transition-duration: 0.3s;
+  background-color: #171717;
+  border-radius: 7px;
+  border: #fff 1px solid;
+  padding: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+  opacity: 0.5;
+  height: 370px;
+}
+
+.shopUI:hover{
+  opacity: 1;
+}
+
+.itemImg{
+  background-color: #212121;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.itemName{
+  padding: 10px;
+}
+
+.itemPrice{
+  transition-duration: 0.3s;
+  padding: 10px;
+  color: #0d6200;
+  font-weight: bold;
+}
+
+.itemPrice:hover{
+  font-size: 20px;
+  background-color: #0d6200;
+  color: #fff;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 145px;
+  margin-right: 145px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  box-shadow: inset 0px 0px 20px #000;
+}
+
+.purchaseButton{
+  transition-duration: 0.3s;
+  background: #000000;
+  color: #fff;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+}
+
+.purchaseButton:hover{
+  font-size: 20px;
+  padding: 10px;
+  margin: 20px;
+  background: #0d6200;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: inset 0px 0px 20px #000;
+}
+
+.purchaseButton:active{
+  background: #ffffff;
+  color: #0d6200;
+}
+
+/* Footer */
